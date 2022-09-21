@@ -30,7 +30,7 @@ namespace ARLocation.UI
                 {
                     lineRenderer.material = new Material(shader)
                     {
-                        color = new Color(0.3960f, 0.6901f, 0.9725f)
+                        color = new Color(0.3960f, 0.6901f, 0.9725f, 0.0f)
                     };
                 }
             }
@@ -51,15 +51,15 @@ namespace ARLocation.UI
         }
         void Update()
         {
-
+            bool check=false;
             var floorLevel = hasArLocationManager ? arLocationManager.CurrentGroundY : -ARLocation.Config.InitialGroundHeightGuess;
             var startPos = MathUtils.SetY(mainCamera.transform.position, floorLevel);
             var endPos = MathUtils.SetY(transform.position, floorLevel);
 
             var lineDir = (endPos - startPos).normalized;
 
-            lineRenderer.SetPosition(0, startPos);
-            lineRenderer.SetPosition(1, endPos);
+            //lineRenderer.SetPosition(0, startPos);
+            //lineRenderer.SetPosition(1, endPos);
 
             var textPos = startPos + lineDir * 6.0f;
 
@@ -67,6 +67,13 @@ namespace ARLocation.UI
             textMeshGo.transform.LookAt(endPos, new Vector3(0, 1, 0));
             textMeshGo.transform.Rotate(90, 90, 0);
             textMesh.text = Vector3.Distance(startPos, endPos).ToString("0.00", CultureInfo.InvariantCulture) + "m";
+            
+            //if(check==false &&Vector3.Distance(startPos, endPos)>10)
+            //{
+            //    check = true;
+            //    textMesh.text = "미션성공!";
+            //}
+
         }
     }
 
