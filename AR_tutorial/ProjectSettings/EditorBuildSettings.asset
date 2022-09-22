@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lake_map.unity
     guid: 95986986118498f45b9f15240ac7aade
   - enabled: 1
+    path: Assets/Scenes/Map_Daegu.unity
+    guid: 1b9e1aae8824546beaceb9e6bd86c57e
+  - enabled: 1
     path: Assets/Scenes/Main_Gate_map.unity
     guid: 9cb5dea9a097c9f4399e7c878db3a47f
   m_configObjects:
