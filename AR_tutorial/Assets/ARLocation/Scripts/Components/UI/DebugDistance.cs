@@ -51,6 +51,8 @@ namespace ARLocation.UI
         }
         void Update()
         {
+            bool check = false;
+
 
             var floorLevel = hasArLocationManager ? arLocationManager.CurrentGroundY : -ARLocation.Config.InitialGroundHeightGuess;
             var startPos = MathUtils.SetY(mainCamera.transform.position, floorLevel);
@@ -68,6 +70,13 @@ namespace ARLocation.UI
             textMeshGo.transform.Rotate(90, 90, 0);
             textMesh.text = Vector3.Distance(startPos, endPos).ToString("0.00", CultureInfo.InvariantCulture) + "m";
            
+            if(check==false&&Vector3.Distance(startPos,endPos)<10)
+            {
+                check = true;
+                textMesh.text = "mission complete";
+
+            }
+
         }
     }
 
