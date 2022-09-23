@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 public class ARSceneManager : MonoBehaviour
 {
+    public GameObject MenuSet;
+    public GameObject quest_text_clear;
+    public GameObject quest_text_noclear;
+    public GameObject Clear_btn;
     public void GotoMain()
     {
         SceneManager.LoadScene("Main", LoadSceneMode.Single);
@@ -13,16 +19,29 @@ public class ARSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
-    public void mission_complete()
+    public void Mission_complete()
     {
-        if(PlayerPrefs.GetInt(SceneManager.GetActiveScene().name)==1)
+        
+        if (MenuSet.activeSelf)
         {
-            Debug.Log("mission complete");
-            SceneManager.LoadScene("Map_Choice", LoadSceneMode.Single);
+            MenuSet.SetActive(false);
         }
         else
         {
+            MenuSet.SetActive(true);
+        }
+        if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name)==1)
+        {
+            Debug.Log("mission complete");
+            quest_text_clear.SetActive(true);
+            Clear_btn.SetActive(true);
+            
+        }
+        else
+        {
+            quest_text_noclear.SetActive(true);
             Debug.Log("plz complete");
         }
     }
+   
 }

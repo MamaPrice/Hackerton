@@ -812,9 +812,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1015895548880390, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025522138792312, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1191026261074352, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
       propertyPath: m_Name
       value: ARLocationInfo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754547697490170, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553764845446052, guid: f6233caea7405cd4089432ff4bf85915, type: 3}
       propertyPath: m_RootOrder
@@ -1123,8 +1135,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 300, y: 30}
-  m_SizeDelta: {x: 150, y: 30}
+  m_AnchoredPosition: {x: 163, y: 340}
+  m_SizeDelta: {x: 196.1585, y: 84.551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799842816
 MonoBehaviour:
@@ -1249,6 +1261,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dee10a793ae38843ab054158143daa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MenuSet: {fileID: 0}
+  quest_text_clear: {fileID: 0}
+  quest_text_noclear: {fileID: 0}
+  Clear_btn: {fileID: 0}
 --- !u!4 &1967910276
 Transform:
   m_ObjectHideFlags: 0
