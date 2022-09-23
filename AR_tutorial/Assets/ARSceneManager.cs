@@ -10,6 +10,9 @@ public class ARSceneManager : MonoBehaviour
     public GameObject quest_text_clear;
     public GameObject quest_text_noclear;
     public GameObject Clear_btn;
+    public GameObject IT_1_check;
+    public GameObject Main_Gate_check;
+    public GameObject Lake_check;
     public void GotoMain()
     {
         SceneManager.LoadScene("Main", LoadSceneMode.Single);
@@ -46,7 +49,12 @@ public class ARSceneManager : MonoBehaviour
     public void Reset_btn()
     {
         PlayerPrefs.SetInt("IT1_map", 0);
+       
+        IT_1_check.SetActive(false);
+        
         PlayerPrefs.SetInt("Lake_map", 0);
+        Lake_check.SetActive(false);
         PlayerPrefs.SetInt("Main_Gate_map", 0);
+        Main_Gate_check.SetActive(false);
     }
 }

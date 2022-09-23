@@ -76,6 +76,10 @@ namespace ARLocation.UI
                 PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
                 textMesh.text = "mission complete";
             }
+            else
+            {
+                PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 0);
+            }
         }
     }
 

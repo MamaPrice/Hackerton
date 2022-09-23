@@ -745,7 +745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &352778852
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2496,7 +2496,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1166952017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3318,7 +3318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1386077148
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4433,6 +4433,9 @@ MonoBehaviour:
   quest_text_clear: {fileID: 0}
   quest_text_noclear: {fileID: 0}
   Clear_btn: {fileID: 0}
+  IT_1_check: {fileID: 1386077147}
+  Main_Gate_check: {fileID: 352778851}
+  Lake_check: {fileID: 1166952016}
 --- !u!4 &1951565633
 Transform:
   m_ObjectHideFlags: 0
