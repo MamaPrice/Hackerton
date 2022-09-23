@@ -637,8 +637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2f3ff7c53dce541b94d22096a83d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabDatabase: {fileID: 11400000, guid: 218b86bf1ea09354bba29006b2f2b684, type: 2}
-  XmlDataFile: {fileID: 4900000, guid: 0efbe39562e2140419a0d8564d285cf2, type: 3}
+  PrefabDatabase: {fileID: 11400000, guid: e89131d980d4cad49a3a2e131cb9206c, type: 2}
+  XmlDataFile: {fileID: 4900000, guid: 3b7d5e08312f55b4c9f58b2e0e975089, type: 3}
   DebugMode: 1
 --- !u!4 &139393150
 Transform:
