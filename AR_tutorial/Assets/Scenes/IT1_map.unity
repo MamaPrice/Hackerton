@@ -2735,6 +2735,11 @@ MonoBehaviour:
   quest_text_clear: {fileID: 2096276169}
   quest_text_noclear: {fileID: 331921512}
   Clear_btn: {fileID: 759121252}
+  Ground_check: {fileID: 0}
+  Main_Gate_check: {fileID: 0}
+  Lake_check: {fileID: 0}
+  North_Gate_check: {fileID: 0}
+  Library_check: {fileID: 0}
 --- !u!4 &971519328
 Transform:
   m_ObjectHideFlags: 0
