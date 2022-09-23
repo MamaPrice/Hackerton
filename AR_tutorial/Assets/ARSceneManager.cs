@@ -34,8 +34,7 @@ public class ARSceneManager : MonoBehaviour
         {
             Debug.Log("mission complete");
             quest_text_clear.SetActive(true);
-            Clear_btn.SetActive(true);
-            
+            Clear_btn.SetActive(true);        
         }
         else
         {
@@ -43,5 +42,11 @@ public class ARSceneManager : MonoBehaviour
             Debug.Log("plz complete");
         }
     }
-   
+
+    public void Reset_btn()
+    {
+        PlayerPrefs.SetInt("IT1_map", 0);
+        PlayerPrefs.SetInt("Lake_map", 0);
+        PlayerPrefs.SetInt("Main_Gate_map", 0);
+    }
 }

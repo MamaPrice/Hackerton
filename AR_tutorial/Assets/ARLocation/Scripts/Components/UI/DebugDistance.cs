@@ -54,7 +54,7 @@ namespace ARLocation.UI
         void Update()
         {
             // bool check = false;
-            PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 0);
+            
             var floorLevel = hasArLocationManager ? arLocationManager.CurrentGroundY : -ARLocation.Config.InitialGroundHeightGuess;
             var startPos = MathUtils.SetY(mainCamera.transform.position, floorLevel);
             var endPos = MathUtils.SetY(transform.position, floorLevel);
