@@ -6,8 +6,15 @@ public class page_make : MonoBehaviour
 {
    public void page_up()
    {
-        PlayerPrefs.SetInt("page_num", PlayerPrefs.GetInt("page_num")+1);
-   }
+        if (PlayerPrefs.GetInt("page_num") >= 4 )
+        {
+            PlayerPrefs.SetInt("page_num",4);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("page_num", PlayerPrefs.GetInt("page_num") + 1);
+        }
+    }
    public void page_down()
    {
         if(PlayerPrefs.GetInt("page_num")!=0)
@@ -15,4 +22,5 @@ public class page_make : MonoBehaviour
             PlayerPrefs.SetInt("page_num", PlayerPrefs.GetInt("page_num") - 1);
         }
    }
+
 }
