@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class Moneyviewer : MonoBehaviour
 {
-    public TextMeshProUGUI MoneyScore;
+    public Text MoneyScore;
     // Start is called before the first frame update
     
 
