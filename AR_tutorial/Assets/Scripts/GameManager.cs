@@ -10,7 +10,15 @@ public class GameManager : MonoBehaviour
     public int[] jellyGoldList;
     public int[] numGoldList;
     public int[] clickGoldList;
+    public Sprite[] TourSpriteList;
+    public string[] TourNameList;
+    public int[] TourJelatinList;
+    public string[] TourLockNameList;
 
+
+    public int check=1;
+
+    
     public Vector3[] PointList;
 
     public RuntimeAnimatorController[] LevelAc;
