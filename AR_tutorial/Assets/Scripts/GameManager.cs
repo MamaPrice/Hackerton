@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public string[] TourNameList;
     public int[] TourJelatinList;
     public string[] TourLockNameList;
+    public string[] TourExpainList;
 
 
     public int check=1;
@@ -27,4 +28,18 @@ public class GameManager : MonoBehaviour
     {
         anim.runtimeAnimatorController = LevelAc[level-1];
     }
+
+
+    public void Update()
+    {
+        if(PlayerPrefs.GetInt("Ground_map")==1&&PlayerPrefs.GetInt("Lake_map") == 1&&PlayerPrefs.GetInt("Library_map") == 1&&PlayerPrefs.GetInt("Main_Gate_map") == 1&&PlayerPrefs.GetInt("North_Gate_map") == 1)
+        {
+            check = 1;
+        }
+        else
+        {
+            check = 0;
+        }
+    }
+
 }
