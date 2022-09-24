@@ -17,6 +17,7 @@ public class ARSceneManager : MonoBehaviour
     public GameObject Library_check;
     public GameObject mission_clear;
     public GameObject hobanu_clear;
+    public GameObject NoClear_btn;
     public void GotoMain()
     {
         SceneManager.LoadScene("Main", LoadSceneMode.Single);
@@ -48,6 +49,7 @@ public class ARSceneManager : MonoBehaviour
         else
         {
             quest_text_noclear.SetActive(true);
+            NoClear_btn.SetActive(true);
             Debug.Log("plz complete");
         }
     }
@@ -69,5 +71,10 @@ public class ARSceneManager : MonoBehaviour
     {
         mission_clear.SetActive(false);
         hobanu_clear.SetActive(true);
+    }
+    public void close_popup()
+    {
+        MenuSet.SetActive(false);
+       
     }
 }

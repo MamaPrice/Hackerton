@@ -2433,9 +2433,13 @@ MonoBehaviour:
   quest_text_clear: {fileID: 0}
   quest_text_noclear: {fileID: 0}
   Clear_btn: {fileID: 0}
-  IT_1_check: {fileID: 0}
+  Ground_check: {fileID: 0}
   Main_Gate_check: {fileID: 0}
   Lake_check: {fileID: 0}
+  North_Gate_check: {fileID: 0}
+  Library_check: {fileID: 0}
+  mission_clear: {fileID: 0}
+  hobanu_clear: {fileID: 0}
 --- !u!4 &1951565633
 Transform:
   m_ObjectHideFlags: 0
@@ -2643,7 +2647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 211.03064, y: -24.756989}
+  m_AnchoredPosition: {x: 211.03064, y: -24.756958}
   m_SizeDelta: {x: -541.123, y: -144.9803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084581801
