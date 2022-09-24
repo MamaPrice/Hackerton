@@ -50,13 +50,15 @@ public class ARSceneManager : MonoBehaviour
 
     public void Reset_btn()
     {
-        PlayerPrefs.SetInt("Ground_map", 0);
-       
-        Library_check.SetActive(true);
-        
+        PlayerPrefs.SetInt("Ground_map", 0);    
+        Ground_check.SetActive(true);
         PlayerPrefs.SetInt("Lake_map", 0);
-        Lake_check.SetActive(false);
+        Lake_check.SetActive(true);
         PlayerPrefs.SetInt("Main_Gate_map", 0);
-        Main_Gate_check.SetActive(false);
+        Main_Gate_check.SetActive(true);
+        PlayerPrefs.SetInt("North_Gate_map", 0);
+        North_Gate_check.SetActive(true);
+        PlayerPrefs.SetInt("Library_map", 0);
+        Library_check.SetActive(true);
     }
 }

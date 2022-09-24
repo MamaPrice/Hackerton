@@ -15,7 +15,7 @@ public class stage_check : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("North_map") == 1)
+        if (PlayerPrefs.GetInt("North_Gate_map") == 1)
         { 
             North_Gate_check.SetActive(false);
         }
