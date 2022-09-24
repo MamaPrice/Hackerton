@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PrefabDb_main_gate
   m_EditorClassIdentifier: 
   Entries:
-  - MeshId: Main_Gate
-    Prefab: {fileID: 2198125378339800612, guid: 987dd04d41b1fcf4a9ed5ade4d053c88, type: 3}
+  - MeshId: school
+    Prefab: {fileID: 2230316747357174044, guid: 9136825feb3e53c49bc12cb61b0042ea, type: 3}
