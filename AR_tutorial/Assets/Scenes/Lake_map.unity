@@ -4795,6 +4795,8 @@ MonoBehaviour:
   Lake_check: {fileID: 0}
   North_Gate_check: {fileID: 0}
   Library_check: {fileID: 0}
+  mission_clear: {fileID: 0}
+  hobanu_clear: {fileID: 0}
 --- !u!4 &1967910276
 Transform:
   m_ObjectHideFlags: 0
