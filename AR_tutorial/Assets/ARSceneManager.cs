@@ -77,4 +77,9 @@ public class ARSceneManager : MonoBehaviour
         MenuSet.SetActive(false);
        
     }
+    public void stage_clear_score()
+    {
+        SceneManager.LoadScene("Map_Choice", LoadSceneMode.Single);
+        PlayerPrefs.SetInt("Money", PlayerPrefs.GetInt("Money") + 100);
+    }
 }
