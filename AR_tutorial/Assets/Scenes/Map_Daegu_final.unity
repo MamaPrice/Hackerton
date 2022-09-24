@@ -4017,7 +4017,7 @@ RectTransform:
   m_GameObject: {fileID: 1584242449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.075121}
-  m_LocalScale: {x: 2.1302145, y: 2.1302145, z: 2.1302145}
+  m_LocalScale: {x: 2.3185253, y: 2.3185253, z: 2.3185253}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1889878303}
@@ -4851,6 +4851,7 @@ MonoBehaviour:
   Library_check: {fileID: 0}
   mission_clear: {fileID: 0}
   hobanu_clear: {fileID: 0}
+  NoClear_btn: {fileID: 0}
 --- !u!4 &1951565633
 Transform:
   m_ObjectHideFlags: 0
