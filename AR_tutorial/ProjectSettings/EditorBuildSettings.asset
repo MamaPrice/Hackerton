@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Dongwoo.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Map_Choice.unity
+    guid: b746cbc5404c4ae4e9301ddda9744dab
+  - enabled: 1
+    path: Assets/Scenes/IT1_map.unity
+    guid: 6ba4e1ff819990d4a9fd03b1bdb63b58
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Lake_map.unity
+    guid: 95986986118498f45b9f15240ac7aade
+  - enabled: 1
+    path: Assets/Scenes/Main_Gate_map.unity
+    guid: 9cb5dea9a097c9f4399e7c878db3a47f
+  - enabled: 1
+    path: Assets/Scenes/Library_map.unity
+    guid: a7571adc9d323e4418975f21c2ad3e1a
+  - enabled: 1
+    path: Assets/Scenes/Map_Daegu_final.unity
+    guid: 175c115e0c0a94470abaef77e2649357
+  - enabled: 1
+    path: Assets/Scenes/North_Gate_map.unity
+    guid: 5a7e6eae5cc5c3049a60228f76362431
+  - enabled: 1
+    path: Assets/Scenes/Ground_map.unity
+    guid: 8dd046fd1a8c30847af8fef97f460088
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 857ba41566f76e2409ea93511476febe, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d2caa8b0cc6c16b41b84e2075f12c2ef, type: 2}
