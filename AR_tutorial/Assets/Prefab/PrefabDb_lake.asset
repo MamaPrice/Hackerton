@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PrefabDb_lake
   m_EditorClassIdentifier: 
   Entries:
-  - MeshId: Lake
-    Prefab: {fileID: 919132149155446097, guid: eee999300b7f3b3439eb0e430ce7434c, type: 3}
+  - MeshId: Logo
+    Prefab: {fileID: 2230316747357174044, guid: 9136825feb3e53c49bc12cb61b0042ea, type: 3}
