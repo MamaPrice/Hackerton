@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabDatabase: {fileID: 11400000, guid: 218b86bf1ea09354bba29006b2f2b684, type: 2}
-  XmlDataFile: {fileID: 4900000, guid: 0efbe39562e2140419a0d8564d285cf2, type: 3}
+  XmlDataFile: {fileID: 4900000, guid: 599d8801f15aab54b84749d7bda60178, type: 3}
   DebugMode: 1
 --- !u!4 &139393150
 Transform:
@@ -2978,7 +2978,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1967910275}
         m_TargetAssemblyTypeName: ARSceneManager, Assembly-CSharp
-        m_MethodName: stage_clear_score
+        m_MethodName: Mission_complete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
