@@ -98,23 +98,31 @@ AR 콘텐츠를 통해 여행의 생생한 체험 가능
     b. 휴대폰의 gps를 활용하여 현재 위치를 받아옴
     c. AR Foundation과 AR core를 이용하여 휴대폰을 활용한 증강현실 구현
     d. 3D 오브젝트를 증강현실 안에서 인식 및 floor를 인식하여 바닥 위에 거리와 그림자 구현
-    
+
+a) gomap과 xml 사용
 ![gomap_xml](/README_IMG/gomap_and_xml.png)
+b) AR화면
 ![ar_screen](/README_IMG/AR.png)
 
 3 - 포토샵, piskel, autocad 등 디자인 툴 사용
 ---------------------------------------------
 ### 대구의 랜드마크, 마스코트 아이콘화
     a. Photoshop - 누끼 제거, 그림자 생성, 획 및 테두리 변경
-        ![photoshop](/README_IMG/photoshop_pixel.png)
     b. 필터 갤러리 - 텍스쳐화
-        ![photoshop2](/README_IMG/pixel.png) 
     c. Piskel - 모든 픽셀 이미지 디자인, 2D 이미지 간략하게 3D로 변경
-        ![piskel](/README_IMG/piskel.png) 
     d. Autocad - AR 작업에서 필요한 모든 3D 이미지 수정 및 디자인
-        ![autocad](/README_IMG/autocad.png) 
     e. 피그마, 미리캔버스 - 게임 UI 설계 및 디자인
-        ![figma](/README_IMG/figma.png) 
+
+a) photoshop
+![photoshop](/README_IMG/photoshop_pixel.png)
+b) photoshop2
+![photoshop2](/README_IMG/pixel.png)
+c) piskel
+![piskel](/README_IMG/piskel.png) 
+d) autocad
+![autocad](/README_IMG/autocad.png) 
+e) figma
+![figma](/README_IMG/figma.png) 
 
 시연영상
 =======
