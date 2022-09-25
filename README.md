@@ -136,3 +136,12 @@ e) figma
 시연영상
 ========
 [시연 영상 보러가기](https://www.youtube.com/watch?v=sfc4P7Ap9pk)
+
+깃 허브 브랜치 설명
+===================
+디자이너: Sub_J
+UI 및 프론트: ajin, KAJ
+AR 기능: KDW4
+캐릭터 키우기 게임: DW1
+
+를 참고해주세요
