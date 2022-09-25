@@ -135,4 +135,4 @@ e) figma
 
 시연영상
 ========
-[시연 영상](http://www.google.co.kr).
+[시연 영상 보러가기](https://www.youtube.com/watch?v=sfc4P7Ap9pk)
